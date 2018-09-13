@@ -20,7 +20,6 @@ redis_port = ""
 db_list = ["", "", "", ""]
 db_list_new = []
 
-# 清空user库
 def truncate(dbName):
     db = mdb.connect(db_host, db_user, db_pwd, dbName)
     c = db.cursor()
