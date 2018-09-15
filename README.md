@@ -1,3 +1,5 @@
 # flush_data
-python version 2.7,3不适用
+> python version 2.7
+
+
 flush data cache restart php
